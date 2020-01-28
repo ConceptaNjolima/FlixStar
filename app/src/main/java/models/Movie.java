@@ -39,7 +39,7 @@ public class Movie {
         return String.format("https://image.tmdb.org/t/p/w342/%s",backdropPath);
     }
     public String getTitle() {
-        Log.d("Title:", "getTitle: "+title);
+//        Log.d("Title:", "getTitle: "+title);
         return title;
 
     }
